@@ -1,0 +1,171 @@
+ body{
+   margin: 0;
+   padding: 0;
+ list-style: none;
+ text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(215, 250, 248);
+    /* margin: 6em;   */
+    background-image: url(image/todolist-vert-removebg-preview.png);
+    background-repeat: no-repeat;
+  background-size: 50em 30em;
+  background-position: 16em 13em;
+}
+    
+  
+ 
+
+ 
+ 
+
+
+fieldset{
+    background-color: rgb(252, 252, 252);
+    background-image: url();
+background-repeat: no-repeat;
+    padding: 3em;
+width: 35em;
+height: auto;
+
+
+}
+
+h1{
+   
+   font-size: 3em;
+   font-weight: 600;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #7f645a;
+}
+input{
+    
+    border-radius: 70px;
+    margin-right: 20px;
+    height: 40px;
+    width: 17em;
+ padding-left: 20px ;
+ color: whitesmoke;
+ border: 1px solid rgb(180, 99, 99);
+ box-shadow: 2px 2px 2px 1px rgb(172, 63, 63);
+ background-color: #1b1b1b;
+}
+input:hover{
+    background-color:  rgb(130, 225, 238);
+}
+input:focus {
+    background-color: rgb(130, 225, 238);
+}
+.main p{
+    font-size: 20px;
+     margin-bottom: 3em; 
+}
+
+button {
+    
+    margin-left: 20px; 
+     width: 80px;
+    height: 30px; 
+    border-radius: 50px;
+    justify-content: end;
+    color: whitesmoke;
+ border: 1px solid rgb(180, 99, 99);
+ box-shadow: 2px 2px 2px 1px rgb(172, 63, 63);
+ background-color: #1b1b1b;
+    /* background-color: rgb(107, 218, 107);
+    color: whitesmoke; */
+    list-style: none;
+    border-radius: 20px; 
+    border: 1px solid #7f645a;
+    box-shadow: 2px 2px 2px 1px #7f645a;
+}
+button:hover{
+    background-color:  #7f645a;
+}
+.ammu{
+    /* background-color: green;
+    color: white; */
+    cursor: pointer;
+    background-color: rgb(107, 218, 107);
+    color: whitesmoke;
+    /* padding: 3px;
+    margin: 3px; */
+    outline: none;
+     border-radius: 20px; 
+    border: 1px solid #7f645a;
+    box-shadow: 2px 2px 2px 1px #7f645a;
+    list-style: none;
+    /* width: 250px;
+    max-width: 500px;
+    max-height: 500px; */
+}
+.ammu1{
+    background-color: red;
+    color: white;
+} 
+
+ #list{
+   font-size: 30px;
+   padding: 1em;
+    list-style: none;
+    color: #7f645a;
+  
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(215, 250, 248);
+}
+
+.main{
+    margin-top: 3em;
+}
+.main h1{
+    font-size: 3em;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #7f645a;
+    
+    /* rgb(173, 72, 72) */
+    /* rgb(172, 63, 63)
+    #1b1b1b */
+
+/* .main p{
+    font-size: 20px;
+    color: #4b5a5b;
+
+}
+.main input{
+    color: whitesmoke;
+    padding: 7px;
+    margin: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #7f645a;
+    box-shadow: 2px 2px 2px 1px #7f645a;
+    width: 250px;
+    max-width: 500px;
+    max-height: 500px;
+    background-color:   #1b1b1b ;
+}
+
+.main input:hover{
+    
+        background-color:  rgb(130, 225, 238);
+   
+}
+.main .ammu{
+    cursor: pointer;
+    background-color: rgb(107, 218, 107);
+    color: whitesmoke;
+    padding: 7px;
+    margin: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #7f645a;
+    box-shadow: 2px 2px 2px 1px #7f645a;
+    /* width: 250px;
+    max-width: 500px;
+    max-height: 500px; */
+    /* background-color:   #1b1b1b ; */

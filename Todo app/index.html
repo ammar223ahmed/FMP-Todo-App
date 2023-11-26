@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+  </head>
+  <body>
+    <!-- <fieldset> -->
+    <div class="main">
+   
+        <h1>TODO LIST  APP</h1>
+        <p>A todo list app is a convenient and effective tool for organizing tasks and activities, 
+          providing an easy way to manage daily goals.</p>
+      <input id="inputField" type="text"  placeholder="Enter your item" />
+      <button  class="ammu" onclick="addtodo()">Add item</button>
+      <button class="ammu1" onclick="deleteAll()">Delete All</button>
+    </div>
+
+    <div >
+
+      <ul id="list">
+        
+      </ul>
+
+    </div>
+    <!-- </fieldset> -->
+    <script src="app.js"></script>
+  </body>
+</html>
